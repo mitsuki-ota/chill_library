@@ -4,8 +4,8 @@
 
 @section('content')
 
-トップページ
+    @include('nav')
 
-<a class="" href="/search" >検索</a>
+    <a class="" href="/search" >検索</a>
 
 @endsection
