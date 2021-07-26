@@ -1,9 +1,11 @@
 @extends('app')
 
+@section('title', 'トップページ')
+
 @section('content')
 
 トップページ
 
-本の検索
+<a class="" href="/search" >検索</a>
 
 @endsection
